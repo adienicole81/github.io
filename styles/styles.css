@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background: linear-gradient(315deg, #1cad4c 0%, #278dac 65%, #2752b1 85%);
+ /* background-color: #1cad4c; /*this goes in body of css file*/
+  
+  
+}
+
+.btn {
+  /* default for <button>, but useful for <a> */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 1px transparent;
+  border-radius: 4px;
+
+  /* size comes from text & padding (no width/height) */
+  padding: 0.5em 1em;
+
+  /* make sure colors have enough contrast! */
+  color: #00ffff;
+  background-color: #9555af;
+}
