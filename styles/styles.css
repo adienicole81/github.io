@@ -3,18 +3,69 @@ body {
   text-align: center;
   background: linear-gradient(315deg, #1cad4c 0%, #278dac 65%, #2752b1 85%);
  /* background-color: #1cad4c; /*this goes in body of css file*/
-  
+ /*background-image: url(Pic2.jpg);/*the pic has to be inside the folder with the css code */
+ /*background-position: center center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ position: relative;
+ background-size: contain; /*scale the image to its biggest size */
+ /*background-color: #cccccc;/*have a backup background color in case the image fails to load or takes long to load */
   
 }
 
+.columnMain {
+  float: left;
+  width: 85%;
+  text-align: center;
+ 
+}
+.columnAside {
+  float: left;
+  width: 15%
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+mainText {
+  color: green;
+  line-height: 1;
+}
+
+p {
+  font-family: arial;
+}
+
+.bgImgCenter {
+  text-align: center;
+  /*background: linear-gradient(315deg, #1cad4c 0%, #278dac 65%, #2752b1 85%);
+ /* background-color: #1cad4c; /*this goes in body of css file*/
+ background-image: url(Pic2.jpg);/*the pic has to be inside the folder with the css code */
+ background-position: center center;
+ /*background-attachment: fixed;/*This command fixes it to the background so it stays put even in page is scrolled*/
+ background-repeat: no-repeat;
+ position: relative;
+ background-size: contain;
+ background-color: #decdbe;/*have a backup background color in case the image fails to load or takes long to load */
+  min-width: 150px;
+
+}
+
+ul{ list-style-type: none; }
+
 .btn {
   /* default for <button>, but useful for <a> */
-  display: inline-block;
+  /*display: inline-block;*/
+  display: block; /*this makes the buttons stacked;*/
   text-align: center;
   text-decoration: none;
 
   /* create a small space when buttons wrap on 2 lines */
   margin: 2px 0;
+  margin-left: 20%;
 
   /* invisible border (will be colored on hover/focus) */
   border: solid 1px transparent;
@@ -26,8 +77,13 @@ body {
   /* make sure colors have enough contrast! */
   color: #00ffff;
   background-color: #9555af;
+  
 }
 
 .floatLeft{float:left;margin-left:20px}
 .floatRight{float:right;margin-left:20px}
 .floatCenter{float:center;margin-left:20px}
+
+img:hover {
+  -webkit-transform: scale(2,2);
+}
