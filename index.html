@@ -6,25 +6,52 @@
   <body>
     
     <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h4 id='date'></h4>
-    
+    <!--<h2>Heading 2</h2>-->
+    <!--<h4 id='date'></h4>-->
 
-    <div id="intro" class="floatCenter">
-     
-      <p>This is an example paragraph</p>
-      <p>This is an example paragraph</p>
+    <div class="row">
+          <div class="columnMain" >
+            
+              <div class = "bgImgCenter" style="width:auto;height:300px;">
+                <mainText>           
+                    <p>Main Column</p>
+                    <p>Column 1 </p>
+                </mainText>
+              </div>
+          </div>
+          
+          <div class="columnAside">
+              <p>Aside Column</p>
+                  <ul><li>
+                    <button class="btn" style="width:auto;height:auto;" onclick="window.location.href='page2.html'">Button1</button>
+                </li>
+                <li>
+                    <button class="btn"style="width:auto;height:auto;" onclick="window.location.href='page2.html'">Button2</button>
+              </li></ul>
+          </div>
+    </div>
+
+    <div id="intro" class="floatCenter" style="background-color:lightblue">
       <p>This is an example paragraph</p>
       <p>This is an example paragraph</p>
       <p>This is an example paragraph</p>
     </div>
 
+    <aside style="background-color:rgb(199, 230, 173)">
+
+    </aside>
+
+    <div id="images" class="floatCenter">
     <!--<img style="position:absolute;TOP:20px; LEFT:170px; width:500px;height:400px;" img src="images/Pic2.jpg">-->
-    <img style="max-width:20%;height:auto;" img src="images/Pic2.jpg" class = "floatLeft">
-    <img style="max-width:20%;height:auto;" img src="images/pic.jpg" class = "floatLeft">
-    
-    <button class="btn"style="position:absolute;TOP:200px; RIGHT:170px; width:100px;height:50px;" onclick="window.location.href='page2.html'">Gallery</button>
-    
+    <img style="max-width:20%;height:auto;" img src="images/Pic2.jpg" class = "floatCenter">
+    <img style="max-width:20%;height:auto;" img src="images/pic.jpg" class = "floatCenter">
+    </div>
+
+    <div id="buttons" class="floatCenter">
+    <!--<button class="btn"style="position:absolute;TOP:200px; RIGHT:170px; width:100px;height:50px;" onclick="window.location.href='page2.html'">Button1</button>-->
+    <button class="btn"style="max-width:20%;height:auto;" onclick="window.location.href='page2.html'">Button1</button>
+    <button class="btn"style="max-width:20%;height:auto;" onclick="window.location.href='page2.html'">Button2</button>
+    </div>
 
   </body>
 
