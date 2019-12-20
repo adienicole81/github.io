@@ -117,3 +117,12 @@ img:hover {
     float: center;
     margin-left: 20px
 }
+.site-container{/*this makes the main container be at least the height of the screen*/
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content{/*this makes the section grow as large as it can inside here */
+  flex: 1;
+}
