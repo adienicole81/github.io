@@ -1,27 +1,119 @@
-body {
-  text-align: center;
-  background: linear-gradient(315deg, #1cad4c 0%, #278dac 65%, #2752b1 85%);
-  /*background-color: #00ffff;*/
 
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    float: right;
+}
+
+body {
+    text-align: center;
+    /*background: linear-gradient(315deg, #1cad4c 0%, #278dac 65%, #2752b1 85%);*/
+    /* background-color: #1cad4c; /*this goes in body of css file*/
+    background-image: url(5_fish.jpg); /*the pic has to be inside the folder with the css code */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover; /*scale the image to its biggest size */
+    background-color: #cccccc; /*have a backup background color in case the image fails to load or takes long to load */
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 700px;
+    height: 100%;
 }
 
 .btn {
-  /* default for <button>, but useful for <a> */
-  display: inline-block;
+    /* default for <button>, but useful for <a> */
+    /*display: inline-block;*/
+    display: block; /*this makes the buttons stacked;*/
+    text-align: center;
+    text-decoration: none;
+    /* create a small space when buttons wrap on 2 lines */
+    margin: 2px 0;
+    margin-left: 20%;
+    /* invisible border (will be colored on hover/focus) */
+    border: solid 1px transparent;
+    border-radius: 4px;
+    /* size comes from text & padding (no width/height) */
+    padding: 0.5em 1em;
+    /* make sure colors have enough contrast! */
+    color: black;
+    background-color: #E8E8E8;
+    margin-bottom: 20px;
+    float: left;
+}
+
+
+
+img:hover {
+    -webkit-transform: scale(2,2);
+}
+
+/*.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background-color: red;
+  color: white;
   text-align: center;
-  text-decoration: none;
+}*/
 
-  /* create a small space when buttons wrap on 2 lines */
-  margin: 2px 0;
+/* this keeps the footer always at the bottom of the page */
+#foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px
+}
 
-  /* invisible border (will be colored on hover/focus) */
-  border: solid 1px transparent;
-  border-radius: 4px;
 
-  /* size comes from text & padding (no width/height) */
-  padding: 0.5em 1em;
+.columnMain {
+    float: left;
+    width: 60%;
+}
 
-  /* make sure colors have enough contrast! */
-  color: #00ffff;
-  background-color: #9555af;
+.columnAside {
+    float: left;
+    width: 40%
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) { /*When the screen width shrinks too small, the columns are stacked instead of side by side*/
+    .columnMain {
+        width: 100%;
+    }
+
+    .columnAside {
+        width: 100%;
+    }
+}
+
+.floatLeft {
+    float: left;
+    margin-left: 20px
+}
+
+.floatRight {
+    float: right;
+    margin-left: 20px
+}
+
+.floatCenter {
+    float: center;
+    margin-left: 20px
 }
