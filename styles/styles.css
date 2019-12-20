@@ -38,10 +38,13 @@ body {
 }
 
 @media screen and (max-width: 600px) {/*When the screen width shrinks too small, the columns are stacked instead of side by side*/
-  .columnMain {
+  .columnLeft {
     width: 100%;
   }
-  .columnAside {
+  .columnCenter {
+    width: 100%;
+  }
+  .columnRight {
     width: 100%;
   }
 }
