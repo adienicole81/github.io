@@ -1,4 +1,5 @@
 
+
 html {
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-size: cover; /*scale the image to its biggest size */
-    background-color: #cccccc; /*have a backup background color in case the image fails to load or takes long to load */
+    background-color: black; /*have a backup background color in case the image fails to load or takes long to load */
     display: flex;
     flex-direction: column;
     /*align-items: center;*/
