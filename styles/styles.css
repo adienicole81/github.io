@@ -131,7 +131,7 @@ ul {
 
 
 .site-container{/*this makes the main container be at least the height of the screen*/
-  display:flex;
+  display:block;
   flex-direction: column;
   min-height: 100vh;
 }
