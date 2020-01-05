@@ -1,6 +1,4 @@
 
-
-
 /*html {
     margin: 0;
     padding: 0;
@@ -15,7 +13,7 @@ body {
     text-align: center;
     /*background: linear-gradient(315deg, #1cad4c 0%, #278dac 65%, #2752b1 85%);*/
     /* background-color: #1cad4c; /*this goes in body of css file*/
-    background-image: url(5_fish.JPG); /*the pic has to be inside the folder with the css code */
+    background-image: url(5_fish_background.JPG); /*the pic has to be inside the folder with the css code */
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -30,6 +28,7 @@ body {
     padding-bottom: 10px;
     height: 100%;*/
 }
+
 
 .btn {
     /* default for <button>, but useful for <a> */
@@ -127,4 +126,8 @@ img:hover {
 
 .site-content{/*this makes the section grow as large as it can inside here */
   flex: 1;
+}
+
+p {
+    font-family: Arial;
 }
