@@ -13,7 +13,9 @@ body {
  position: relative;
  background-size: cover; /*scale the image to its biggest size */
  background-color: #cccccc;/*have a backup background color in case the image fails to load or takes long to load */
-  
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
 }
 
 
