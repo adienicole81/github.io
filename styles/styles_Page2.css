@@ -20,13 +20,13 @@ body {
     position: relative;
     background-size: cover; /*scale the image to its biggest size */
     background-color: black; /*have a backup background color in case the image fails to load or takes long to load */
-    /*display: flex;
+    display: flex;
     flex-direction: column;
     /*align-items: center;*/
-    /*margin: 0;
+    margin: 0;
     padding: 10px;
     padding-bottom: 10px;
-    height: 100%;*/
+    height: 100%;
 }
 
 
