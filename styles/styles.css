@@ -2,20 +2,19 @@
 
 
 
+
 body {
-  text-align: center;
- /* background: linear-gradient(315deg, #7B241C 0%, #D98880 65%, #7B241C 85%);*/
- /* background-color: #1cad4c; /*this goes in body of css file*/
- background-image: url(background.jpg);/*the pic has to be inside the folder with the css code */
- background-position: center center;
- background-attachment: fixed;
- background-repeat: no-repeat;
- position: relative;
- background-size: cover; /*scale the image to its biggest size */
- background-color: #cccccc;/*have a backup background color in case the image fails to load or takes long to load */
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
+    text-align: center;
+    /* background: linear-gradient(315deg, #7B241C 0%, #D98880 65%, #7B241C 85%);*/
+    /* background-color: #1cad4c; /*this goes in body of css file*/
+    background-image: url(background.jpg); /*the pic has to be inside the folder with the css code */
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover; /*scale the image to its biggest size */
+    background-color: #cccccc; /*have a backup background color in case the image fails to load or takes long to load */
+    display: flex;
 }
 
 
@@ -131,7 +130,7 @@ ul {
 
 
 .site-container{/*this makes the main container be at least the height of the screen*/
-  display:block;
+  display:flex;
   flex-direction: column;
   min-height: 100vh;
 }
