@@ -29,7 +29,8 @@ div.second {
     /*setting alpha = 0.3*/
     background: rgba(185, 185, 185, 0.4);
     border-radius: 25px;
-    text-align: left
+    text-align: left;
+    padding: .03em 1em;
 }
 
 .columnLeft {
