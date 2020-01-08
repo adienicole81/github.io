@@ -9,7 +9,7 @@ body {
     /* background-color: #1cad4c; /*this goes in body of css file*/
     background-image: url(background.jpg); /*the pic has to be inside the folder with the css code */
     background-position: center center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
     background-size: cover; /*scale the image to its biggest size */
