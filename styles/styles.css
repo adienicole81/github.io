@@ -14,7 +14,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
-    background-size: contain; /*scale the image to its biggest size */
+    background-size: cover; /*scale the image to its biggest size */
     background-color: #cccccc; /*have a backup background color in case the image fails to load or takes long to load */
     display: flex;
 }
