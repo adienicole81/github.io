@@ -2,51 +2,33 @@
 
 
 
-
 body {
-    text-align: center;
-    /* background: linear-gradient(315deg, #7B241C 0%, #D98880 65%, #7B241C 85%);*/
-    /* background-color: #1cad4c; /*this goes in body of css file*/
-    background-image: url(background.jpg); /*the pic has to be inside the folder with the css code */
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover; /*scale the image to its biggest size */
-    background-color: #cccccc; /*have a backup background color in case the image fails to load or takes long to load */
-    display: flex;
-    -webkit-backface-visibility: visible;
-}
-
-
-div.first {
-    /*setting alpha = 0.3*/
-    background: rgba(185, 185, 185, 0.4);
-    border-radius: 25px;
-    text-align: center
-}
-
-div.second {
-    /*setting alpha = 0.3*/
-    background: rgba(185, 185, 185, 0.4);
-    border-radius: 25px;
-    text-align: left;
-    padding: .03em 1em;
+  text-align: center;
+ /* background: linear-gradient(315deg, #7B241C 0%, #D98880 65%, #7B241C 85%);*/
+ /* background-color: #1cad4c; /*this goes in body of css file*/
+ background-image: url(background.jpg);/*the pic has to be inside the folder with the css code */
+ background-position: center center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ position: relative;
+ background-size: cover; /*scale the image to its biggest size */
+ background-color: #cccccc;/*have a backup background color in case the image fails to load or takes long to load */
+  
 }
 
 .columnLeft {
   float: left;
-  width: 32.00%;
+  width: 30.00%;
   text-align: center;
  
 }
 .columnCenter {
     float: left;
-    width: 36%
+    width: 40%
 }
 .columnRight {
   float: left;
-  width: 32%
+  width: 30%
 }
 /* Clear floats after the columns */
 .row:after {
@@ -55,7 +37,7 @@ div.second {
   clear: both;
 }
 
-@media screen and (max-width: 1200px) {/*When the screen width shrinks too small, the columns are stacked instead of side by side*/
+@media screen and (max-width: 600px) {/*When the screen width shrinks too small, the columns are stacked instead of side by side*/
   .columnLeft {
     width: 100%;
   }
@@ -73,7 +55,7 @@ mainText {
 }
 
 p {
-    font-family: Arial;
+  font-family: arial;
 }
 
 .ImageBorder {
@@ -112,7 +94,7 @@ ul {
     margin-left: 20%;
     /* invisible border (will be colored on hover/focus) */
     border: solid 1px transparent;
-    border-radius: 20px;
+    border-radius: 4px;
     /* size comes from text & padding (no width/height) */
     padding: 0.5em 1em;
     /* make sure colors have enough contrast! */
