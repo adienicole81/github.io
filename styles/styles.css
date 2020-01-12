@@ -33,6 +33,10 @@ div.second {
     padding: .03em 1em;
 }
 
+div.addPadding {
+    padding: .03em 3em;
+}
+
 .columnLeft {
   float: left;
   width: 32.00%;
