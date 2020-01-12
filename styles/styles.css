@@ -68,6 +68,15 @@ div.addPadding {
   .columnRight {
     width: 100%;
   }
+
+  body{
+      font-size: 17px
+  }
+
+    h1 {
+        font-size: 44px
+    }
+
 }
 
 
