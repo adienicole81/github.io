@@ -99,7 +99,7 @@ img:hover {
     width: 50%;
 }
 
-@media screen and (max-width: 600px) { /*When the screen width shrinks too small, the columns are stacked instead of side by side*/
+@media screen and (max-width: 1200px) { /*When the screen width shrinks too small, the columns are stacked instead of side by side*/
     .columnMain {
         width: 100%;
     }
